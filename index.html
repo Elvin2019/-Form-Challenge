@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Form challenge</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>My Happy Form</h1>
+        <input id="firstName" placeholder="First Name" />
+        <input id="lastName" placeholder="Last Name" />
+        <textarea id="comments" placeholder="Comments"></textarea>
+        <div style="display: flex; flex: 1;">
+            <label for="subscribeNews" class="subscribe-news-label">Subscribe to newsletter?</label>
+            <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" />
+            <div style="margin-top: 20px;"></div>
+        </div>
+        <div class="email-input">
+            <input id="email" placeholder="Email" />
+        </div>
+        <div style="margin-top: 20px;"></div>
+        <button id="submit" class="submit-button" disabled>Submit</button>
+        <div class="message" id="message"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
